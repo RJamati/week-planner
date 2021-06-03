@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box; }
+
+ul {
+  list-style-type: none; }
+
+body {
+  font-family: Verdana, sans-serif; }
+
+.month {
+  padding: 25px;
+  width: 100%;
+  background: #00b7ff;
+  text-align: center; }
+  .month ul {
+    margin: 0;
+    padding: 0; }
+    .month ul li {
+      color: white;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+  .month .prev {
+    float: left; }
+    .month .prev:hover {
+      cursor: pointer; }
+  .month .next {
+    float: right; }
+    .month .next:hover {
+      cursor: pointer; }
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd; }
+  .weekdays li {
+    display: inline-block;
+    width: 12%;
+    color: #666;
+    text-align: center; }
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0; }
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #666; }
+
+.times {
+  padding: 10px 0;
+  background: #ddd;
+  margin: 0; }
+  .times li {
+    list-style-type: none;
+    display: block;
+    width: 13.6%;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777; }
+
+.container {
+  display: none;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto; }
+
+.unit {
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  background: #ddd;
+  width: calc(100% / 8);
+  height: 60px;
+  float: left;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666; }
+
+.createEvents {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  color: #666; }
+  .createEvents.active {
+    background-color: #00b7ff;
+    color: #fff; }
+  .createEvents:hover {
+    cursor: pointer;
+    background-color: #00b7ff; }
