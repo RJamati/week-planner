@@ -1,4 +1,4 @@
-# week-planner-HTML-CSS-SCSS
+# week-planner-HTML-CSS-SCSS-JS
 This is a weekly planner built using HTML, CSS, SASS and vanilla JavaScript.
 
 You can see the page live at https://rjamati.github.io/week-planner/index.html
